@@ -1,0 +1,19 @@
+{
+  "name": "holidays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephanieAn/node-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanieAn/node-CLI/issues"
+  },
+  "homepage": "https://github.com/StephanieAn/node-CLI#readme"
+}
