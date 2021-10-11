@@ -1,8 +1,14 @@
 {
-  "name": "holidays",
+  "name": "@stephaniean/holidays",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
+  "keywords": [
+    "CLI"
+  ],
+  "bin": {
+    "Holiday": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +17,15 @@
     "url": "git+https://github.com/StephanieAn/node-CLI.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/StephanieAn/node-CLI/issues"
   },
-  "homepage": "https://github.com/StephanieAn/node-CLI#readme"
+  "homepage": "https://github.com/StephanieAn/node-CLI#readme",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "chalk": "^4.1.2",
+    "country-list": "^2.2.0",
+    "ora": "^6.0.1"
+  }
 }
