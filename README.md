@@ -1,11 +1,11 @@
 # Holiday CLI
 
-How to install the CLI:
-=======================
+### How to install the CLI:
+
 `npm install -g @stephaniean/holidays`
 
-How to use it:
-==============
+### How to use it:
+
 `holiday {country} {year} ` <br>
 The first parameter is the country. It is mandatory. <br>
 The second parameter is the year and this one is optional.
