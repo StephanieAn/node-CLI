@@ -1,13 +1,13 @@
 {
   "name": "@stephaniean/holidays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "bin/index.js",
   "keywords": [
     "CLI"
   ],
   "bin": {
-    "Holiday": "./bin/index.js"
+    "holiday": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,8 @@
     "type": "git",
     "url": "git+https://github.com/StephanieAn/node-CLI.git"
   },
-  "author": "",
+  "type": "module",
+  "author": "Stéphanie Antignac",
   "bugs": {
     "url": "https://github.com/StephanieAn/node-CLI/issues"
   },
